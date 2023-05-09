@@ -1,0 +1,533 @@
+/* common selector start */
+
+:root {
+    --brand-color:#17A2B8;
+    --primary-color:  #F8F4F0;
+    --Secondary-color: #00394f;
+    --color-white: #fff;
+    --color-dark:#138496;
+    --border-width: 2px;
+    --btn-padding: 10px 65px;
+}
+
+/*nav_section start*/
+.nav_section .icon{
+	display:flex;
+	color:var(--Secondary-color);
+	font-size:55px;
+	font-weight:300;
+	text-decoration: none;
+}
+.nav_section .brand_name{
+	font-family:Nunito, sans-serif;
+	color:var(--brand-color);
+	align-self: center;
+	font-size:40px;
+	text-decoration: none;
+}
+.nav_section .menu-bar{
+	display:flex;
+	align-self: center;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:700;
+	list-style:none;
+}
+.nav_section .menu-bar a{
+	align-self: center;
+	color:var(--Secondary-color);
+	text-decoration: none;
+	margin-right: 30px;
+}
+.nav_section .menu-bar .first_child {
+	color:var(--brand-color);
+}
+.nav_section .menu-bar a:hover{
+	color:var(--brand-color);
+}
+.nav_section .search-box{
+	align-self:center;
+	border-radius: 20px;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	text-decoration: none;
+	color:white;
+	background:var(--brand-color);
+	
+}
+.nav_section .search-box:hover{
+	background: var(--color-dark);
+}
+/*nav section end*/
+/*main section start*/
+header{
+	background:#17A2B8;
+}
+.header_section .main_section{
+	padding-top: 150px;
+}
+.header_section .main_section h2{
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:var(--color-white);
+}
+.header_section .main_section h1{
+	font-family:Handlee, cursive;
+	font-size:65px;
+	line-height:86px;
+	font-weight:500;
+	color:var(--color-white);
+}
+.header_section .main_section p{
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:var(--color-white);
+}
+.header_section .main_section a{
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	background:#00394f;
+	text-decoration: none;
+	color: var(--color-white);
+	border-radius: 30px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.header_section .learning_section{
+	margin-top: 100px;
+}
+header .img-section{
+	width:47%;
+	height:100%;
+	box-sizing: border-box;
+	margin:0px 0px 0px 0px;
+	padding:50px 0px 0px 0px;
+}
+/*main section end*/
+/*block section start*/
+.block-section-1{
+	border:0px solid green;
+	display:flex;
+	justify-content: flex-start;
+	
+	width:100%;
+	height:250px;
+}
+.block-section-1 .play-ground{
+	border:0px solid green;
+	display:flex;
+	align-self: flex-end;
+	width:27%;
+	height:160px;
+	background:#F8F9FA;
+	margin:50px 0px 0px 80px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .play-ground h3{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	font-weight:400;
+	color:#17a2b8;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .play-ground h1{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:#00394f;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .play-ground h6{
+	border:0px solid green;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+.block-section-1 .music-and-dance{
+	border:0px solid green;
+	width:27%;
+	height:160px;
+	display:flex;
+	align-self: flex-end;
+	margin:50px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
+	background:#F8F9FA;
+}
+.block-section-1 .music-and-dance h3{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	font-weight:400;
+	color:#17a2b8;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .music-and-dance h1{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:#00394f;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .music-and-dance h6{
+	border:0px solid green;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .arts-and-crafts{
+	border:0px solid green;
+	width:27%;
+	height:160px;
+	display:flex;
+	align-self: flex-end;
+	margin:50px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
+	background:#F8F9FA;
+}
+.block-section-1 .arts-and-crafts h3{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	font-weight:400;
+	color:#17a2b8;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .arts-and-crafts h1{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:#00394f;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-1 .arts-and-crafts h6{
+	border:0px solid green;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2{
+	border:0px solid green;
+	display:flex;
+	width:100%;
+	height:190px;
+}
+.block-section-2 .safe-transportation{
+	border:0px solid green;
+	width:27%;
+	height:160px;
+	display:flex;
+	align-self: flex-end;
+	margin:25px 0px 0px 80px;
+	padding:0px 0px 0px 0px;
+	background:#F8F9FA;
+}
+.block-section-2 .safe-transportation h3{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	font-weight:400;
+	color:#17a2b8;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .safe-transportation h1{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:#00394f;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .safe-transportation h6{
+	border:0px solid green;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .healthy-food{
+	border:0px solid green;
+	width:27%;
+	height:160px;
+	display:flex;
+	align-self: flex-end;
+	margin:25px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
+	background:#F8F9FA;
+}
+.block-section-2 .healthy-food h3{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	font-weight:400;
+	color:#17a2b8;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .healthy-food h1{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:#00394f;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .healthy-food h6{
+	border:0px solid green;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .educational-tour{
+	border:0px solid green;
+	width:27%;
+	height:160px;
+	display:flex;
+	align-self: flex-end;
+	margin:25px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
+	background:#F8F9FA;
+}
+.block-section-2 .educational-tour h3{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	font-weight:400;
+	color:#17a2b8;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .educational-tour h1{
+	border:0px solid green;
+	font-family:Handlee, cursive;
+	font-size:24px;
+	line-height:29px;
+	font-weight:700;
+	color:#00394f;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.block-section-2 .educational-tour h6{
+	border:0px solid green;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+/*block section end*/
+/*aside section start*/
+.aside-section{
+	border:0px solid red;
+	display:flex;
+	width:100%;
+	height:550px;
+	margin:100px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.aside-section .img-section{
+	border:0px solid red;
+	width:40%;
+	height:550px;
+	display:flex;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 70px;
+}
+.aside-section .about-us{
+	border:0px solid red;
+	width:60%;
+	height:550px;
+	display:flex;
+	flex-direction: column;
+}
+
+.aside-section .about-us h3{
+	border:0px solid green;
+	display:flex;
+	font-family:Nunito, sans-serif;
+	font-size:18px;
+	line-height:24px;
+	font-weight:400;
+	color:#17a2b8;
+	margin:45px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
+}
+.aside-section .about-us h1{
+	border:0px solid green;
+	display:flex;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	line-height:48px;
+	font-weight:300;
+	color:#00394f;
+	margin:15px 0px 0px 30px;
+	padding:0px 0px 0px 0px;
+}
+
+.aside-section .about-us p{
+	border:0px solid green;
+	display:flex;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#666666;
+	margin:25px 50px 0px 30px;
+	padding:0px 0px 0px 0px;
+}
+
+.aside-section .about-us .img{
+	border:0px solid green;
+	border-radius: 5px;
+	display:flex;
+	margin:25px 30px 0px 30px;
+	padding:0px 0px 0px 0px;
+}
+.aside-section .about-us article{
+	border:0px solid purple;
+	display:flex;
+	width: 100%;
+	height: 160px;
+}
+.aside-section .about-us article .div-section{
+	border:0px solid green;
+	display:flex;
+	flex-direction: column;
+	width: 55%;
+	height: 130px;
+	margin:25px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:30px;
+	font-weight:400;
+	color:#666666;
+}
+
+
+.aside-section .about-us .div-section div .ri-check-line{
+	font-family:"Font Awesome 5 Free";
+	font-size:26px;
+	line-height:30px;
+	font-weight:800;
+	color:#17a2b8;
+}
+
+.aside-section .about-us .learn-more-button{
+	border-radius: 30px;
+	font-family:Nunito, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	background:#138496;
+	margin:25px 500px 0px 25px;
+	padding:10px 35px 10px 35px;
+	display:flex;
+	
+}
+.aside-section .about-us .learn-more-button a{
+	color:white;
+	text-decoration: none;
+}
+/*aside section end*/
+/*gallary section start*/
+figure{
+	border:1px solid green;
+	display:flex;
+	flex-direction: column;
+	width:100%;
+	height:600px;
+}
+figure p{
+	border:1px solid green;
+	display:flex;
+	justify-content: center;
+	width:100%;
+	height:50px;
+	font-family:Nunito, sans-serif;
+	font-size:20px;
+	line-height:24px;
+	font-weight:400;
+	color:#17a2b8;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+figure h1{
+	border:1px solid green;
+	display:flex;
+	justify-content: center;
+	width:100%;
+	height:50px;
+	font-family:Handlee, cursive;
+	font-size:40px;
+	line-height:48px;
+	font-weight:700;
+	color:#00394f;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+/*gallary section end*/
