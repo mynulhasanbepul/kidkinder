@@ -147,17 +147,20 @@ header{
 	padding-bottom: 5px;
 	width: 450px;
 }
-.aside_section a{
-	background: var(--brand-color);
-	color: var(--color-white);
-	text-decoration: none;
-	border-radius: 30px;
-}
+
 .about_us .icon i{
 	color: #17A2B8;
 }
 .div_section .icon:last-child{
 	border-bottom: 1px solid #DEE2E6 ;
+}
+.aside_section a{
+	background: var(--brand-color);
+	color: var(--color-white);
+	text-decoration: none;
+}
+.aside_section a:hover{
+	background: var(--color-dark);
 }
 /*aside section end*/
 /* popular section start */
@@ -210,5 +213,151 @@ position: relative;
 	font-weight: 500;
 	width: 85%;
 	margin-left: 30px;
+	margin-bottom: 40px;
+  }
+  .popular_section .fast_aside a{
+	background: var(--brand-color);
+	color: var(--color-white);
+	margin-left: 110px;
+  }
+  .popular_section .fast_aside a:hover{
+	background: var(--color-dark);
   }
 /* popular section end */
+/* book section start */
+.book_section h6{
+	color: var(--brand-color);
+	font-family:Nunito, sans-serif; 
+	font-size:16px ;
+	font-weight:400 ;
+	position: relative;
+}
+.book_section h6::after{
+    content:"";
+    position: absolute;
+    left: 95px;
+    bottom: 7px;
+    width: 10%;
+    height: 2px;
+    background: var(--brand-color);
+}
+
+.book_section h1{
+	color: var(--Secondary-color);
+	font-family: Handlee, cursive;
+	font-size: 40px;
+	font-weight: 500;
+}
+.book_section .d-flex i{
+	color: #17A2B8;
+	margin-right:8px;
+}
+.book_section .book_now_button{
+	text-decoration: none;
+	background: var(--brand-color);
+	color: var(--color-white);
+}
+
+/* from_section start */
+.form_section h1{
+	background: var(--Secondary-color);
+	color: var(--color-white);
+}
+.form_section .form_cotent{
+	background: var(--brand-color);
+}
+.book_section .form_button{
+	background: var(--Secondary-color);
+	color: var(--color-white);
+	margin-left: 48px;
+	text-decoration: none;
+	padding-left: 140px;
+	padding-right: 140px;
+	
+}
+/* book section end */
+/* teacher section :start */
+.teacher_section .head_line{
+color: var(--brand-color);
+font-family: Nunito, sans-serif;
+font-size:16px ;
+font-weight:400 ;
+line-height: 24px;
+position: relative;
+}
+.head_line::before {
+	content:"";
+    position: absolute;
+    left: 395px;
+    bottom: 28px;
+    width: 6%;
+    height: 2px;
+    background: var(--brand-color);
+  } 
+.head_line::after {
+	content:"";
+    position: absolute;
+    left: 655px;
+    bottom: 28px;
+    width: 6%;
+    height: 2px;
+    background: var(--brand-color);
+  } 
+  .teacher_section .sub_head_line{
+	color: var(--Secondary-color);
+	font-family: Handlee, cursive;
+	font-size:40px;
+	font-weight:300 ;
+	line-height: 48px;
+  }
+  .teacher_section h1{
+	color: var(--Secondary-color);
+	font-family:Handlee, cursive;
+	font-size:24px;
+	font-weight:400;
+	margin-top: 30px;
+  }
+  .teacher_section h2{
+	color: var(--Secondary-color);
+	font-family:Nunito, sans-serif;
+	font-style: italic;
+	font-size:16px;
+	font-weight:400;
+	margin-top: 20px;
+  }
+  .teacher_section .fast_aside .fast_section_overlay a{
+	border: 1px solid var(--color-white);
+	border-radius: 50%;
+	color: var(--color-white);
+	padding: 7px;
+	margin-left: 5px;
+	
+  }
+  .fast_aside{
+	position: relative;
+	overflow: hidden;
+  }
+  .fast_section_overlay {
+	position: absolute;
+	bottom: 153px;
+	left: 0px;
+	background: rgba(23, 162, 184, 0.8);
+	height: 63%;
+	width: 100%;
+	border-radius:50%;	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  }
+  .fast_aside:hover .fast_section_overlay{
+	bottom: 0px;
+}
+	
+	
+	
+
+	
+	
+	transition: .5s all;
+/* teacher section :end */
