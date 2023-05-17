@@ -288,7 +288,7 @@ position: relative;
 .head_line::before {
 	content:"";
     position: absolute;
-    left: 395px;
+    left: 425px;
     bottom: 28px;
     width: 6%;
     height: 2px;
@@ -297,7 +297,7 @@ position: relative;
 .head_line::after {
 	content:"";
     position: absolute;
-    left: 655px;
+    left: 625px;
     bottom: 28px;
     width: 6%;
     height: 2px;
@@ -329,9 +329,14 @@ position: relative;
 	border: 1px solid var(--color-white);
 	border-radius: 50%;
 	color: var(--color-white);
-	padding: 7px;
-	margin-left: 5px;
-	
+	padding:7px;
+	margin-right:5px;
+  }
+  .fast_section_overlay a:hover{
+	background: var(--color-white);
+  }
+  .fast_section_overlay i:hover{
+	color: var(--Secondary-color);
   }
   .fast_aside{
 	position: relative;
@@ -339,25 +344,139 @@ position: relative;
   }
   .fast_section_overlay {
 	position: absolute;
-	bottom: 153px;
+	bottom: -100%;
 	left: 0px;
 	background: rgba(23, 162, 184, 0.8);
-	height: 63%;
+	height: 100%;
 	width: 100%;
 	border-radius:50%;	
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	transition: .5s all;
   }
   .fast_aside:hover .fast_section_overlay{
-	bottom: 0px;
+	top: 0px;
 }
-	
-	
-	
-
-	
-	
-	transition: .5s all;
 /* teacher section :end */
+/* Testimonial section start */
+.testimonial_section .fast_aside {
+	background: #F8F9FA;
+}
+.testimonial_section .fast_aside i{
+	color: var(--brand-color);
+}
+.testimonial_section .head_line{
+color: var(--brand-color);
+font-family: Nunito, sans-serif;
+font-size:16px ;
+font-weight:400 ;
+line-height: 24px;
+position: relative;
+}
+.head_line::before {
+	content:"";
+    position: absolute;
+    left: 395px;
+    bottom: 28px;
+    width: 6%;
+    height: 2px;
+    background: var(--brand-color);
+  } 
+.head_line::after {
+	content:"";
+    position: absolute;
+    left: 655px;
+    bottom: 28px;
+    width: 6%;
+    height: 2px;
+    background: var(--brand-color);
+  } 
+  .testimonial_section .sub_head_line{
+	color: var(--Secondary-color);
+	font-family: Handlee, cursive;
+	font-size:40px;
+	font-weight:300 ;
+	line-height: 48px;
+  }
+  .testimonial_section h1{
+	color: var(--Secondary-color);
+	font-family: Handlee, cursive;
+	font-size:20px ;
+	font-weight:500 ;
+	line-height: 24px;
+  }
+  .testimonial_section h6{
+	color: var(--Secondary-color);
+	font-family: Handlee, cursive;
+	font-size:16px ;
+	font-weight:400 ;
+	line-height: 24px;
+	font-style: italic;
+	line-height: 24px;
+  }
+  
+/* Testimonial section end */
+/* blog section :start */
+
+.blog_section .fast_aside {
+	background: #F8F9FA;
+}
+.blog_section .head_line{
+color: var(--brand-color);
+font-family: Nunito, sans-serif;
+font-size:16px ;
+font-weight:400 ;
+line-height: 24px;
+position: relative;
+}
+.head_line::before {
+	content:"";
+    position: absolute;
+    left: 395px;
+    bottom: 28px;
+    width: 6%;
+    height: 2px;
+    background: var(--brand-color);
+  } 
+.head_line::after {
+	content:"";
+    position: absolute;
+    left: 655px;
+    bottom: 28px;
+    width: 6%;
+    height: 2px;
+    background: var(--brand-color);
+  } 
+  .blog_section .sub_head_line{
+	color: var(--Secondary-color);
+	font-family: Handlee, cursive;
+	font-size:40px;
+	font-weight:300 ;
+	line-height: 48px;
+  }
+  .blog_section h1{
+	color: var(--Secondary-color);
+	font-family:Handlee, cursive;
+	font-size:24px;
+	font-weight:400;
+	margin-top: 30px;
+  }
+  .blog_section .table{
+	color: #666666;
+	font-size: 17px;
+	font-weight: 500;
+	width: 85%;
+	margin-left: 30px;
+	margin-bottom: 40px;
+  }
+  .blog_section .fast_aside a{
+	background: var(--brand-color);
+	color: var(--color-white);
+	margin-left: 110px;
+  }
+  .blog_section .fast_aside a:hover{
+	background: var(--color-dark);
+  }
+  /* blog section :end */
