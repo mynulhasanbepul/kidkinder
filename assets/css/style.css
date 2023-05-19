@@ -1,7 +1,7 @@
 /* common selector start */
 
 :root {
-    --brand-color:#17A2B8;
+    --brand-color:#17a2b8;
     --primary-color:  #F8F9FA;
     --Secondary-color: #00394f;
     --color-white: #fff;
@@ -543,4 +543,45 @@ position: relative;
 .footer_section .Quick_links a:hover{
 	text-decoration: underline;
 }
+.Newsletter_section .Newsletter_button{
+	background: var(--brand-color);
+	color: var(--color-white);
+	font-size: 16px;
+	text-decoration: none;
+	padding-left:87px;
+	padding-right: 87px;
+}
+.footer_section .row{
+	border-bottom: 1px solid rgba(23, 162, 184, 0.2);
+}
+.footer_section .end_section a {
+	color: var(--brand-color);
+	font-size: 16px;
+}
+.footer_section .end_section a:hover{
+	color: #105372;
+	text-decoration: underline;
+	cursor: pointer;
+}
   /* footer :end */
+  /* animation section start */
+.fixed{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 11;
+	background: #138496;
+	color: var(--color-white);
+	border-radius: 45%;
+	animation-name: fixed;
+  	animation-duration: 1s;
+  	animation-timing-function: linear;
+ 	animation-delay: s;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+@keyframes fixed {
+	from {bottom: 20px;}
+	to {bottom:40px;}
+}
+/* animation section end */
